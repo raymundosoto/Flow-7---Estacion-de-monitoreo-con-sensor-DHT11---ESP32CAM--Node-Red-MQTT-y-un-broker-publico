@@ -5,9 +5,10 @@ Se muestra el circuito
 ![imagen](https://user-images.githubusercontent.com/72757419/185517875-f1680480-4cb4-401e-b115-8ca2d10eb6f2.png)
 
 La interfaz gráfica con las mediciones del sensor
-![imagen](https://user-images.githubusercontent.com/72757419/185517947-f4987a12-d42c-48f4-821e-1f75fda9e228.png)
+![imagen](https://user-images.githubusercontent.com/72757419/185671616-06795933-f5ed-4d43-8c29-df9eeecaaf8e.png)
 
 Una parte del flow en node-red
-![imagen](https://user-images.githubusercontent.com/72757419/185518232-5986fef1-ad31-4a8c-acf8-9b778c63097e.png)
+![imagen](https://user-images.githubusercontent.com/72757419/185671715-ab3d4059-3d24-4896-9d2e-8b44163d25e8.png)
 
 
+ç

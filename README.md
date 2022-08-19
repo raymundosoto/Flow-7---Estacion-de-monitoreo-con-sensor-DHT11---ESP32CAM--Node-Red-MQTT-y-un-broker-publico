@@ -1,0 +1,2 @@
+# Flow-7---Estacion-de-monitoreo-con-sensor-DHT11---ESP32CAM--Node-Red-MQTT-y-un-broker-publico
+En este ejercicio se creó una estación de monitoreo de temperatura y humedad con el sensor DHT11 y un ESP32 CAM. Se programó el sensor en el IDE de arduino y se creo una interfaz gráfica usando node-red. Los datos del sensor se envían a tráves de un broker público para compartirlos con los compañeros del curso.

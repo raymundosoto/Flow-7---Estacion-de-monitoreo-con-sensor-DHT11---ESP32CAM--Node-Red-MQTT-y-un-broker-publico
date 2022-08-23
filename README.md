@@ -1,4 +1,4 @@
-div style="text-align: justify"> # Flow-7-Estacion-de-monitoreo-con-sensor-DHT11-ESP32CAM-Node-Red-MQTT-y-un-broker-publico
+# Flow-7-Estacion-de-monitoreo-con-sensor-DHT11-ESP32CAM-Node-Red-MQTT-y-un-broker-publico
 
 > Escrito por  [Raymundo Soto](https://github.com/raymundosoto).
 
@@ -52,4 +52,4 @@ En este ejercicio se creó una estación de monitoreo de temperatura y humedad l
 
 
 ### Fuentes bibliográficas
-1. _Sistema Nacional de Información de la Calidad del Aire, SINAICA_. (s. f.). Gobierno de México. Recuperado 23 de agosto de 2022, de https://sinaica.inecc.gob.mx/ </div>
+1. _Sistema Nacional de Información de la Calidad del Aire, SINAICA_. (s. f.). Gobierno de México. Recuperado 23 de agosto de 2022, de https://sinaica.inecc.gob.mx/

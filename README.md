@@ -15,8 +15,11 @@ En este ejercicio se creó una estación de monitoreo de temperatura y humedad l
  - Cables jumper
  - Protoboard
  - Cable serial
- Conectar el circuito de la siguiente forma:
- 
+ - Conectar el circuito de la siguiente forma:
+ - 
+![imagen](https://user-images.githubusercontent.com/72757419/186284422-7f02778f-1358-4439-acd9-e5abf82e4333.png)
+
+ ![imagen](https://user-images.githubusercontent.com/72757419/186284390-2c967e07-8850-4e61-ab2b-5eee4c5e786e.png)
 
 ## Software necesario
 
@@ -47,9 +50,21 @@ En este ejercicio se creó una estación de monitoreo de temperatura y humedad l
  4. El flow de node-red obtiene los datos del sensor y los enviados desde el broker y los gráfica en el dashboard
  5. De forma adicional si la temperatura local es mayor a 28 ºC se activa el led del ESP32CAM
 
+## Resultados
+En las imágenes se pueden observar las lecturas locales de temperatura y humedad, además de los datos reportados por API y por los sensores de los integrantes del curso.
+![imagen](https://user-images.githubusercontent.com/72757419/186284640-8acc9fa9-017f-47f4-b543-3654278358e5.png)
+![imagen](https://user-images.githubusercontent.com/72757419/186284690-8cb5767d-cf78-476a-a3c2-55e3f2781a17.png)
+
+## Evidencia
+
+Cómo evidencia se realizó el siguiente vídeo de tiktok
 
 
+# Conclusiones
 
+Los sistemas de monitoreo de datos ambientales son un claro ejemplo de que el internet de las cosas permite la conjunción de diversas áreas del conocimiento humano con el fin de medir, procesar, enviar, recibir y analizar datos para crear aplicaciones útiles para el ser humano. En lo particular, me resulta genial poder adquirir datos a través de un sensor y poderlos visualizar en una interfaz gráfica y además de poderlos enviar al internet con ayuda de los protocolos de comunicación. La metodología de trabajo empleada en este prototipo nos permitirá diseñar sistemas que trabajen con la misma intención del uso de los datos.   
+
+·
 
 ### Fuentes bibliográficas
 1. _Sistema Nacional de Información de la Calidad del Aire, SINAICA_. (s. f.). Gobierno de México. Recuperado 23 de agosto de 2022, de https://sinaica.inecc.gob.mx/

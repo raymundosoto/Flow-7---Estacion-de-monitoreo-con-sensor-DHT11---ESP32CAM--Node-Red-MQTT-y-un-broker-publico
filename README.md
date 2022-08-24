@@ -56,9 +56,9 @@ En las imágenes se pueden observar las lecturas locales de temperatura y humeda
 ![imagen](https://user-images.githubusercontent.com/72757419/186284690-8cb5767d-cf78-476a-a3c2-55e3f2781a17.png)
 
 ## Evidencia
-
 Cómo evidencia se realizó el siguiente vídeo de tiktok
 
+https://vm.tiktok.com/ZMNWoTjhF/
 
 # Conclusiones
 

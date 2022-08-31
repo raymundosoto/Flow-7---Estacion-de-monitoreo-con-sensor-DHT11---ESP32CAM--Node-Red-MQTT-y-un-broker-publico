@@ -16,7 +16,7 @@ En este ejercicio se creó una estación de monitoreo de temperatura y humedad l
  - Protoboard
  - Cable serial
  - Conectar el circuito de la siguiente forma:
- - 
+ 
 ![imagen](https://user-images.githubusercontent.com/72757419/186284422-7f02778f-1358-4439-acd9-e5abf82e4333.png)
 
  ![imagen](https://user-images.githubusercontent.com/72757419/186284390-2c967e07-8850-4e61-ab2b-5eee4c5e786e.png)

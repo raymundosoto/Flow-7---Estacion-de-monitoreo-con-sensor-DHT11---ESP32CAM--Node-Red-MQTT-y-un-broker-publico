@@ -31,6 +31,8 @@ En este ejercicio se creó una estación de monitoreo de temperatura y humedad l
  - Flow de node-red para adquisición, envío y visualización de datos en el broker [archivo json del flow ](https://github.com/raymundosoto/Flow-7---Estacion-de-monitoreo-con-sensor-DHT11---ESP32CAM--Node-Red-MQTT-y-un-broker-publico/blob/627bb53ce3f26d6435504aeee759c1e13fbc34e8/flow_7_dht11_esp32_MQTT_.json)
  - Biblioteca DHT11 de adafruit en arduino [DHT11](https://github.com/adafruit/DHT-sensor-library)
  - Biblioteca [PubSubClient](https://pubsubclient.knolleary.net/) en arduino
+ - Grafana (se instala de acuerdo a la guía)
+ - MySQL para la base de datos
  
 ##  Instrucciones
 1. Realizar las conexiones del circuito para conectar el ESP32CAM y el sensor dht11. Asegurarse que los pines está correctamente conectados (se pueden ver en el archivo .ino)
@@ -41,6 +43,9 @@ En este ejercicio se creó una estación de monitoreo de temperatura y humedad l
 6. Activar node-red y cargar el  [flow ](https://github.com/raymundosoto/Flow-7---Estacion-de-monitoreo-con-sensor-DHT11---ESP32CAM--Node-Red-MQTT-y-un-broker-publico/blob/627bb53ce3f26d6435504aeee759c1e13fbc34e8/flow_7_dht11_esp32_MQTT_.json) y verificar en el dashboard que hay lecturas de datos y se publican en el broker local con los temas del paso 3
 7. Los nodos MQTT del flow deberán estar configurados de tal forma que publiquen en el tema `mosquitto_sub -h 3.121.170.193 -t codigoIoT/g7/mosquitto/API`y en el tema `mosquitto_sub -h 3.121.170.193 -t codigoIoT/g7/mosquitto/sensores`la ip del broker  [HIVEMQ](https://www.hivemq.com/) cambia en el tiempo por lo que hay que revisar cuál es la del día actual.
 8. Comprobar que las funciones del flow están enviando y recibiendo los json  los datos de temperatura y humedad del sensor y los obtenidos vía API (Los códigos vienen en los nodos *function*).
+9. Crear la base de datos con el nombre, temperatura y humedad.
+10. Abir Grafana, conectarla a la base de datos crear las gráficas
+11. Copiar el código en grafana para insertar las gráficas en NodeRed
 
 ## Funcionamiento
 
@@ -54,6 +59,10 @@ En este ejercicio se creó una estación de monitoreo de temperatura y humedad l
 En las imágenes se pueden observar las lecturas locales de temperatura y humedad, además de los datos reportados por API y por los sensores de los integrantes del curso.
 ![imagen](https://user-images.githubusercontent.com/72757419/186284640-8acc9fa9-017f-47f4-b543-3654278358e5.png)
 ![imagen](https://user-images.githubusercontent.com/72757419/186284690-8cb5767d-cf78-476a-a3c2-55e3f2781a17.png)
+
+Flow con las gráfica de grafana
+![imagen](https://user-images.githubusercontent.com/72757419/190494325-e58daa26-b85d-41db-b17f-c7a273982e09.png)
+
 
 ## Evidencia
 Cómo evidencia se realizó el siguiente vídeo de tiktok
